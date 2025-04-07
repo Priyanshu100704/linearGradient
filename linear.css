@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    width: 500px;
+    height: 500px;
+    aspect-ratio: 1;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: #1a68ce;
+    margin-top: 100px;
+    box-shadow: 7px 8px 25px rgb(124, 68, 68) ;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-style: italic;
+     font-weight: bold;
+     font-size: larger;
+     
+}
+.button2{
+    height: 50px;
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-style: italic;
+     font-weight: bold;
+     font-size: larger;
+     
+}
+.para{
+    height: 60px;
+    width: 200px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+.fontChange{
+    text-align: center;
+    align-content: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
